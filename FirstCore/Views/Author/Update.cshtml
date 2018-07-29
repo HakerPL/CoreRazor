@@ -1,0 +1,38 @@
+﻿@model Author
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="row orderForm">
+    <form asp-controller="Author" asp-action="Update" method="post" class="form-horizontal" role="form">
+        <h3 class="col-md-offset-2">Edit Author @Model.Name</h3>
+        @Html.HiddenFor(m => Model.Id)
+        <div class="form-group">
+            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Surname" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Surname" class="form-control" placeholder="Enter authors surname" />
+                <span asp-validation-for="Surname" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.BornDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.BornDate, new { @type="date", @class = "form-control datepicker", @Value = Model.BornDate.ToString("yyyy-MM-dd") } )
+                @Html.ValidationMessageFor(model => model.BornDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="btn-group col-md-offset-2 col-md-6">
+                <input class="btn btn-default" type="submit" value="Return" asp-controller="Author" asp-action="List" />
+                <input class="btn btn-success" type="submit" value="Update" />
+            </div>
+        </div>
+    </form>
+</div>

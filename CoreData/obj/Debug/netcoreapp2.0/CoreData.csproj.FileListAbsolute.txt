@@ -1,0 +1,11 @@
+E:\MojeProgramy\C#\FirstCore\CoreData\bin\Debug\netcoreapp2.0\CoreData.deps.json
+E:\MojeProgramy\C#\FirstCore\CoreData\bin\Debug\netcoreapp2.0\CoreData.dll
+E:\MojeProgramy\C#\FirstCore\CoreData\obj\Debug\netcoreapp2.0\CoreData.csprojAssemblyReference.cache
+E:\MojeProgramy\C#\FirstCore\CoreData\obj\Debug\netcoreapp2.0\CoreData.csproj.CoreCompileInputs.cache
+E:\MojeProgramy\C#\FirstCore\CoreData\obj\Debug\netcoreapp2.0\CoreData.AssemblyInfoInputs.cache
+E:\MojeProgramy\C#\FirstCore\CoreData\obj\Debug\netcoreapp2.0\CoreData.AssemblyInfo.cs
+E:\MojeProgramy\C#\FirstCore\CoreData\bin\Debug\netcoreapp2.0\CoreData.runtimeconfig.json
+E:\MojeProgramy\C#\FirstCore\CoreData\bin\Debug\netcoreapp2.0\CoreData.runtimeconfig.dev.json
+E:\MojeProgramy\C#\FirstCore\CoreData\bin\Debug\netcoreapp2.0\CoreData.pdb
+E:\MojeProgramy\C#\FirstCore\CoreData\obj\Debug\netcoreapp2.0\CoreData.dll
+E:\MojeProgramy\C#\FirstCore\CoreData\obj\Debug\netcoreapp2.0\CoreData.pdb

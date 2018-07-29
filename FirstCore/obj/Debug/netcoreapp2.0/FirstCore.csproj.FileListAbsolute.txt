@@ -1,0 +1,14 @@
+E:\MojeProgramy\C#\FirstCore\FirstCore\bin\Debug\netcoreapp2.0\FirstCore.deps.json
+E:\MojeProgramy\C#\FirstCore\FirstCore\bin\Debug\netcoreapp2.0\FirstCore.runtimeconfig.json
+E:\MojeProgramy\C#\FirstCore\FirstCore\bin\Debug\netcoreapp2.0\FirstCore.runtimeconfig.dev.json
+E:\MojeProgramy\C#\FirstCore\FirstCore\bin\Debug\netcoreapp2.0\FirstCore.dll
+E:\MojeProgramy\C#\FirstCore\FirstCore\bin\Debug\netcoreapp2.0\FirstCore.pdb
+E:\MojeProgramy\C#\FirstCore\FirstCore\obj\Debug\netcoreapp2.0\FirstCore.csprojAssemblyReference.cache
+E:\MojeProgramy\C#\FirstCore\FirstCore\obj\Debug\netcoreapp2.0\FirstCore.csproj.CoreCompileInputs.cache
+E:\MojeProgramy\C#\FirstCore\FirstCore\obj\Debug\netcoreapp2.0\FirstCore.AssemblyInfoInputs.cache
+E:\MojeProgramy\C#\FirstCore\FirstCore\obj\Debug\netcoreapp2.0\FirstCore.AssemblyInfo.cs
+E:\MojeProgramy\C#\FirstCore\FirstCore\obj\Debug\netcoreapp2.0\FirstCore.dll
+E:\MojeProgramy\C#\FirstCore\FirstCore\obj\Debug\netcoreapp2.0\FirstCore.pdb
+E:\MojeProgramy\C#\FirstCore\FirstCore\bin\Debug\netcoreapp2.0\CoreData.dll
+E:\MojeProgramy\C#\FirstCore\FirstCore\bin\Debug\netcoreapp2.0\CoreData.pdb
+E:\MojeProgramy\C#\FirstCore\FirstCore\obj\Debug\netcoreapp2.0\FirstCore.csproj.CopyComplete
