@@ -3566,11 +3566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MojeProgramy\\C#\\FirstCore\\CoreData\\CoreData.csproj",
+      "projectUniqueName": "E:\\MojeProgramy\\C#\\CoreRazor\\CoreData\\CoreData.csproj",
       "projectName": "CoreData",
-      "projectPath": "E:\\MojeProgramy\\C#\\FirstCore\\CoreData\\CoreData.csproj",
+      "projectPath": "E:\\MojeProgramy\\C#\\CoreRazor\\CoreData\\CoreData.csproj",
       "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-      "outputPath": "E:\\MojeProgramy\\C#\\FirstCore\\CoreData\\obj\\",
+      "outputPath": "E:\\MojeProgramy\\C#\\CoreRazor\\CoreData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

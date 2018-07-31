@@ -13386,11 +13386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MojeProgramy\\C#\\FirstCore\\FirstCore\\FirstCore.csproj",
+      "projectUniqueName": "E:\\MojeProgramy\\C#\\CoreRazor\\FirstCore\\FirstCore.csproj",
       "projectName": "FirstCore",
-      "projectPath": "E:\\MojeProgramy\\C#\\FirstCore\\FirstCore\\FirstCore.csproj",
+      "projectPath": "E:\\MojeProgramy\\C#\\CoreRazor\\FirstCore\\FirstCore.csproj",
       "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-      "outputPath": "E:\\MojeProgramy\\C#\\FirstCore\\FirstCore\\obj\\",
+      "outputPath": "E:\\MojeProgramy\\C#\\CoreRazor\\FirstCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13409,8 +13409,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\MojeProgramy\\C#\\FirstCore\\CoreData\\CoreData.csproj": {
-              "projectPath": "E:\\MojeProgramy\\C#\\FirstCore\\CoreData\\CoreData.csproj"
+            "E:\\MojeProgramy\\C#\\CoreRazor\\CoreData\\CoreData.csproj": {
+              "projectPath": "E:\\MojeProgramy\\C#\\CoreRazor\\CoreData\\CoreData.csproj"
             }
           }
         }
