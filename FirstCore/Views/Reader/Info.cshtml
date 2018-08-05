@@ -1,44 +1,48 @@
-﻿@model Author
+﻿@model ReaderInfoViewModel
 @{
     ViewData["Title"] = "Info";
 }
 
 <div class="row orderForm">
-    <h3 class="col-md-offset-2">Author information</h3>
+    <h3 class="col-md-offset-2">Reader information</h3>
     <div class="form-group">
-        <label asp-for="Name" class="col-md-2 control-label"></label>
-        <p>@Model.Name</p>
+        <label asp-for="Reader.Name" class="col-md-2 control-label"></label>
+        <p>@Model.Reader.Name</p>
     </div>
     <div class="form-group">
-        <label asp-for="Surname" class="col-md-2 control-label"></label>
-        <p>@Model.Surname</p>
+        <label asp-for="Reader.Surname" class="col-md-2 control-label"></label>
+        <p>@Model.Reader.Surname</p>
     </div>
     <div class="form-group">
-        <label asp-for="BornDate" class="col-md-2 control-label"></label>
-        <p>@Model.BornDate</p>
+        <label asp-for="Reader.BornDate" class="col-md-2 control-label"></label>
+        <p>@Model.Reader.BornDate</p>
     </div>
-    <br/><br/>
-    <div> 
+    <br /><br />
+    <h3 class="col-md-offset-2">History</h3>
+    <div>
         <table id="tablePost" class="table table-bordered table-striped">
             <thead>
                 <tr>
-                    <th>Title</th>
-                    <th>Isbn</th>
-                    <th>BookType</th>
-                    <th>ReleaseDate</th>
+                    <th>BookTitle</th>
+                    <th>BorrowedDate</th>
+                    <th>ReturnDate</th>
                 </tr>
             </thead>
             <tbody>
-            @foreach (var item in Model.Books)
-            {
-                <tr>
-                    <td>@item.Title</td>
-                    <td>@item.Isbn</td>
-                    <td>@item.BookType</td>
-                    <td>@item.ReleaseDate</td>
-                </tr>
-            }
+                @foreach (var item in Model.BookHistoryModel)
+                {
+                    <tr>
+                        <td>@item.BookTitle</td>
+                        <td>@item.BorrowedDate</td>
+                        <td>@item.ReturnDate</td>
+                    </tr>
+                }
             </tbody>
         </table>
+    </div>
+    <div class="form-group">
+        <div class="btn-group col-md-offset-2 col-md-6">
+            <input class="btn btn-default" type="submit" value="Return" asp-controller="Reader" asp-action="List" />
+        </div>
     </div>
 </div>

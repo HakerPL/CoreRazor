@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CoreData.Entities;
+﻿using CoreData.Entities;
 using CoreData.Repositories.Interface;
 using FirstCore.Models;
 using FirstCore.ViewModel;

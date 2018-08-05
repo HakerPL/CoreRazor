@@ -1,13 +1,13 @@
-﻿@model IEnumerable<Author>
+﻿@model IEnumerable<Reader>
 @{
     ViewData["Title"] = "List";
 }
 
-<a class="btn btn-success mt-5" style="margin: 10px" asp-controller="Author" asp-action="Create">Create new author</a>
+<a class="btn btn-success mt-5" style="margin: 10px" asp-controller="Reader" asp-action="Create">Create new reader</a>
 
 <div class="row">
-    @foreach (var author in Model)
+    @foreach (var reader in Model)
     {
-        @Html.Partial("AuthorPartial", author)
+        @Html.Partial("ReaderPartial", reader)
     }
 </div>

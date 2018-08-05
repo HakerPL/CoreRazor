@@ -49,7 +49,7 @@ namespace FirstCore.Controllers
         [HttpPost]
         public IActionResult Create(BookCreateViewModel bookCreateViewModel)
         {
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid || bookCreateViewModel.Book.Author.Id <= 0)
                 return View(bookCreateViewModel);
 
             _iBookRepository.Create(bookCreateViewModel.Book);
@@ -59,17 +59,22 @@ namespace FirstCore.Controllers
 
         public IActionResult Update(int id)
         {
-            Book book = _iBookRepository.GetById(id);
-            return View(book);
+            BookCreateViewModel bookCreateViewModel = new BookCreateViewModel()
+            {
+                Authors = _iAuthorRepository.GetAll(),
+                Book = _iBookRepository.GetById(id)
+            };
+
+            return View(bookCreateViewModel);
         }
 
         [HttpPost]
-        public IActionResult Update(Book book)
+        public IActionResult Update(BookCreateViewModel bookCreateViewModel)
         {
             if (!ModelState.IsValid)
-                return View(book);
+                return View(bookCreateViewModel);
 
-            _iBookRepository.Update(book);
+            _iBookRepository.Update(bookCreateViewModel.Book);
 
             return RedirectToAction("List");
         }

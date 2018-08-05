@@ -5,7 +5,7 @@
 
 <div class="row orderForm">
     <form asp-controller="Author" asp-action="Update" method="post" class="form-horizontal" role="form">
-        <h3 class="col-md-offset-2">Edit Author @Model.Name</h3>
+        <h3 class="col-md-offset-2">Edit author @Model.Name</h3>
         @Html.HiddenFor(m => Model.Id)
         <div class="form-group">
             <label asp-for="Name" class="col-md-2 control-label"></label>
@@ -24,7 +24,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.BornDate, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.BornDate, new { @type="date", @class = "form-control datepicker", @Value = Model.BornDate.ToString("yyyy-MM-dd") } )
+                @Html.EditorFor(model => model.BornDate, new { @class = "datetimepicker" })
                 @Html.ValidationMessageFor(model => model.BornDate, "", new { @class = "text-danger" })
             </div>
         </div>

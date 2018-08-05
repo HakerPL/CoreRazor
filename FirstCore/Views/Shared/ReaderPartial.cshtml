@@ -1,0 +1,16 @@
+﻿@model Reader
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <p>@Model.Name @Model.Surname</p>
+        </div>
+        <div class="panel-body">
+            <div class="btn-group">
+                <a class="btn btn-info" asp-area="" asp-controller="Reader" asp-action="Info" asp-route-id="@Model.Id">Info</a>
+                <a class="btn btn-info" asp-area="" asp-controller="Reader" asp-action="Update" asp-route-id="@Model.Id">Edit</a>
+                <a class="btn btn-danger" asp-area="" asp-controller="Reader" asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
